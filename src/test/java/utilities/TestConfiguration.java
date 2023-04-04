@@ -15,6 +15,7 @@ import org.junit.BeforeClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -36,6 +37,7 @@ public class TestConfiguration {
     public static void setDriver(){
         WebDriver driver = new ChromeDriver();
         WebDriverManager.chromedriver().setup();
+        ChromeOptions opt = new ChromeOptions().setHeadless(true);
         driver.get("https://qa-gm3.quaspareparts.com/oauth2/authorization/a3m-client");
         driver.findElement(By.id("username")).sendKeys(username);
         driver.findElement(By.id("password")).sendKeys(password);
