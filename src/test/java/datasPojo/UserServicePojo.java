@@ -8,9 +8,7 @@ public class UserServicePojo {
     "lastname": "Urazzzzzz",
     "username": "Enesssssss",
     "email": "enesberauraz@example.com",
-    "phone": "+1 123 123 4567",
-    "address": "Mudanya",
-    "country_id": "TR"
+
 }
      */
     private String id;
