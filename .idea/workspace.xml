@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d325d99-6d0c-4923-b923-df63e01baf8f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/datasPojo/UserServicePojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/datasPojo/UserServicePojo.java" afterDir="false" />
+    <list default="true" id="3d325d99-6d0c-4923-b923-df63e01baf8f" name="Changes" comment="6 nisan">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allRequest/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allRequest/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +66,7 @@
       <recent name="allRequest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserService.GET_TC001_GetAllUsers2">
+  <component name="RunManager" selected="JUnit.UserService.GET_TC001_GetAllUsers">
     <configuration name="UserService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CapstoneProjectAPI" />
       <extension name="coverage">
@@ -114,8 +116,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserService.GET_TC001_GetAllUsers2" />
         <item itemvalue="JUnit.UserService.GET_TC001_GetAllUsers" />
+        <item itemvalue="JUnit.UserService.GET_TC001_GetAllUsers2" />
         <item itemvalue="JUnit.UserService" />
       </list>
     </recent_temporary>
@@ -129,6 +131,14 @@
       <option name="presentableId" value="Default" />
       <updated>1680625629772</updated>
     </task>
+    <task id="LOCAL-00001" summary="5 nisan">
+      <created>1680718331329</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680718331329</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,5 +151,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="5 nisan" />
+    <MESSAGE value="6 nisan" />
+    <option name="LAST_COMMIT_MESSAGE" value="6 nisan" />
   </component>
 </project>
