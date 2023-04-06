@@ -35,9 +35,9 @@ public class TestConfiguration {
 
     @BeforeClass
     public static void setDriver() {
-        WebDriver driver = new ChromeDriver();
         WebDriverManager.chromedriver().setup();
         ChromeOptions opt = new ChromeOptions().setHeadless(true);
+        WebDriver driver = new ChromeDriver(opt);
         driver.get("https://qa-gm3.quaspareparts.com/oauth2/authorization/a3m-client");
         driver.findElement(By.id("username")).sendKeys(username);
         driver.findElement(By.id("password")).sendKeys(password);
