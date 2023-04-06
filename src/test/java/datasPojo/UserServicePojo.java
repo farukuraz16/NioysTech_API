@@ -20,6 +20,20 @@ public class UserServicePojo {
     private String address;
     private String country_id;
 
+    @Override
+    public String toString() {
+        return "{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", username='" + username + '\'' +
+                ", email='" + email + '\'' +
+                ", phone='" + phone + '\'' +
+                ", address='" + address + '\'' +
+                ", country_id='" + country_id + '\'' +
+                '}';
+    }
+
     public UserServicePojo(String id, String email) {
         this.id = id;
         this.email = email;

@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d325d99-6d0c-4923-b923-df63e01baf8f" name="Changes" comment="6 nisan">
+    <list default="true" id="3d325d99-6d0c-4923-b923-df63e01baf8f" name="Changes" comment="all steps added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/allRequest/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allRequest/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/datasPojo/UserServicePojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/datasPojo/UserServicePojo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,8 +67,8 @@
       <recent name="allRequest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserService.GET_TC001_GetAllUsers">
-    <configuration name="UserService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserService.GET_TC002_GetAllUsersofOrganization">
+    <configuration name="UserService.DELETE_TC008_UpdateExistingUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CapstoneProjectAPI" />
       <extension name="coverage">
         <pattern>
@@ -77,7 +78,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="allRequest" />
       <option name="MAIN_CLASS_NAME" value="allRequest.UserService" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="DELETE_TC008_UpdateExistingUser" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,7 +100,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserService.GET_TC001_GetAllUsers2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserService.GET_TC002_GetAllUsersofOrganization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CapstoneProjectAPI" />
       <extension name="coverage">
         <pattern>
@@ -108,7 +110,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="allRequest" />
       <option name="MAIN_CLASS_NAME" value="allRequest.UserService" />
-      <option name="METHOD_NAME" value="GET_TC001_GetAllUsers2" />
+      <option name="METHOD_NAME" value="GET_TC002_GetAllUsersofOrganization" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserService.GET_TC004_GetUserbyId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CapstoneProjectAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allRequest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allRequest" />
+      <option name="MAIN_CLASS_NAME" value="allRequest.UserService" />
+      <option name="METHOD_NAME" value="GET_TC004_GetUserbyId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserService.PUT_TC007_UpdateExistingUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CapstoneProjectAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allRequest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allRequest" />
+      <option name="MAIN_CLASS_NAME" value="allRequest.UserService" />
+      <option name="METHOD_NAME" value="PUT_TC007_UpdateExistingUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,9 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserService.GET_TC002_GetAllUsersofOrganization" />
         <item itemvalue="JUnit.UserService.GET_TC001_GetAllUsers" />
-        <item itemvalue="JUnit.UserService.GET_TC001_GetAllUsers2" />
-        <item itemvalue="JUnit.UserService" />
+        <item itemvalue="JUnit.UserService.DELETE_TC008_UpdateExistingUser" />
+        <item itemvalue="JUnit.UserService.GET_TC004_GetUserbyId" />
+        <item itemvalue="JUnit.UserService.PUT_TC007_UpdateExistingUser" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +174,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680718331329</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="all steps added">
+      <created>1680737491201</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680737491201</updated>
+    </task>
+    <task id="LOCAL-00003" summary="all steps added">
+      <created>1680737500946</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680737500946</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,6 +205,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="5 nisan" />
     <MESSAGE value="6 nisan" />
-    <option name="LAST_COMMIT_MESSAGE" value="6 nisan" />
+    <MESSAGE value="all steps added" />
+    <option name="LAST_COMMIT_MESSAGE" value="all steps added" />
   </component>
 </project>
