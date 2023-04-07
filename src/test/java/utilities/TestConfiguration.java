@@ -23,8 +23,8 @@ import java.util.Date;
 public class TestConfiguration {
 
     protected RequestSpecification specification;
-   static String username = ConfigReader.getProperty("username");
-   static String password = ConfigReader.getProperty("password");
+    static String username = ConfigReader.getProperty("username");
+    static String password = ConfigReader.getProperty("password");
 
     protected ExtentReports extentReports;
 
@@ -34,10 +34,10 @@ public class TestConfiguration {
 
 
     @BeforeClass
-    public static void setDriver(){
-        WebDriver driver = new ChromeDriver();
+    public static void setDriver() {
         WebDriverManager.chromedriver().setup();
         ChromeOptions opt = new ChromeOptions().setHeadless(true);
+        WebDriver driver = new ChromeDriver(opt);
         driver.get("https://qa-gm3.quaspareparts.com/oauth2/authorization/a3m-client");
         driver.findElement(By.id("username")).sendKeys(username);
         driver.findElement(By.id("password")).sendKeys(password);
@@ -48,13 +48,14 @@ public class TestConfiguration {
         System.out.println("Token: " + access_token);
         driver.quit();
     }
+
     @Before
-    public void setup(){
+    public void setup() {
         extentReports = new ExtentReports();
 
 
         String currentDate = new SimpleDateFormat("yyyy_MM_dd_hh_mm_ss").format(new Date());
-        String filePath =System.getProperty("user.dir")+"\\test-output\\Reports\\testReport_" + currentDate + ".html";//Raporlarımızın kaydedileceği yeri oluşturduk
+        String filePath = System.getProperty("user.dir") + "\\test-output\\Reports\\testReport_" + currentDate + ".html";//Raporlarımızın kaydedileceği yeri oluşturduk
 
 
         extentSparkReporter = new ExtentSparkReporter(filePath);
@@ -77,12 +78,12 @@ public class TestConfiguration {
     }
 
     @After
-    public void closeReports(){
+    public void closeReports() {
         extentReports.flush();
     }
 
     @AfterClass
-    public static void aa(){
+    public static void aa() {
 
     }
 

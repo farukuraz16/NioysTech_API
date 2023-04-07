@@ -8,9 +8,7 @@ public class UserServicePojo {
     "lastname": "Urazzzzzz",
     "username": "Enesssssss",
     "email": "enesberauraz@example.com",
-    "phone": "+1 123 123 4567",
-    "address": "Mudanya",
-    "country_id": "TR"
+
 }
      */
     private String id;
@@ -21,6 +19,20 @@ public class UserServicePojo {
     private String phone;
     private String address;
     private String country_id;
+
+    @Override
+    public String toString() {
+        return "{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", username='" + username + '\'' +
+                ", email='" + email + '\'' +
+                ", phone='" + phone + '\'' +
+                ", address='" + address + '\'' +
+                ", country_id='" + country_id + '\'' +
+                '}';
+    }
 
     public UserServicePojo(String id, String email) {
         this.id = id;
