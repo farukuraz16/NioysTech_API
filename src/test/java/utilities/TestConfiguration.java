@@ -68,7 +68,6 @@ public class TestConfiguration {
         extentReports.setSystemInfo("Browser", "Chrome");
         extentReports.setSystemInfo("Test Site", "RxDrugsHub");
         extentReports.setSystemInfo("Test Type", "REST API Testing");
-        extentReports.setSystemInfo("Request Type", "POST");
 
         extentSparkReporter.config().setDocumentTitle("Team06 Report");
         extentSparkReporter.config().setReportName("Team06 Report");
@@ -83,8 +82,8 @@ public class TestConfiguration {
     }
 
     @AfterClass
-    public static void aa() {
-
+    public static void endTest(){
+        System.out.println("Test sonlandı");
     }
 
 }
