@@ -1,0 +1,427 @@
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_7_04_2023_17_37_[Changes]/shelved.patch
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_04_2023_17_37_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_04_2023_17_37_[Changes]/shelved.patch
+new file mode 100644
+--- /dev/null	(date 1680903654057)
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_04_2023_17_37_[Changes]/shelved.patch	(date 1680903654057)
+@@ -0,0 +1,152 @@
++Index: .idea/workspace.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
++<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"3d325d99-6d0c-4923-b923-df63e01baf8f\" name=\"Changes\" comment=\"6 Nisan Pazartesi..&#10;Tüm stepler çalıştı\">\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/allRequest/UserService2.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/allRequest/deneme.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/config.properties\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/config.properties\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/allRequest/UserService.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/allRequest/UserService.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/utilities/TestConfiguration.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/utilities/TestConfiguration.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"CodeStyleSettingsInfer\">\n    <option name=\"done\" value=\"true\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectCodeStyleSettingsMigration\">\n    <option name=\"version\" value=\"2\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2Ny9o5XtqnRZMLgZYHILR2UxRc6\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/Baran/IdeaProjects/CapstoneProjectAPI/src/test/java/utilities&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"C:\\Users\\Baran\\IdeaProjects\\CapstoneProjectAPI\\src\\test\\java\\utilities\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"C:\\Users\\Baran\\IdeaProjects\\CapstoneProjectAPI\" />\n    </key>\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"allRequest\" />\n      <recent name=\"datasPojo\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"JUnit.UserService.DELETE_TC008_DeleteUser\">\n    <configuration name=\"UserService.DELETE_TC008_DeleteUser\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"CapstoneProjectAPI\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"allRequest.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"allRequest\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"allRequest.UserService\" />\n      <option name=\"METHOD_NAME\" value=\"DELETE_TC008_DeleteUser\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"UserService.GET_TC004_GetUserbyId\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"CapstoneProjectAPI\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"allRequest.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"allRequest\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"allRequest.UserService\" />\n      <option name=\"METHOD_NAME\" value=\"GET_TC004_GetUserbyId\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"UserService.POST_TC003_AddNewUser\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"CapstoneProjectAPI\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"allRequest.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"allRequest\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"allRequest.UserService\" />\n      <option name=\"METHOD_NAME\" value=\"POST_TC003_AddNewUser\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"UserService.POST_TC005_SendEmailVerification\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"CapstoneProjectAPI\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"allRequest.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"allRequest\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"allRequest.UserService\" />\n      <option name=\"METHOD_NAME\" value=\"POST_TC005_SendEmailVerification\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"UserService.PUT_TC007_UpdateExistingUser\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"CapstoneProjectAPI\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"allRequest.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"allRequest\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"allRequest.UserService\" />\n      <option name=\"METHOD_NAME\" value=\"PUT_TC007_UpdateExistingUser\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"JUnit.UserService.DELETE_TC008_DeleteUser\" />\n        <item itemvalue=\"JUnit.UserService.PUT_TC007_UpdateExistingUser\" />\n        <item itemvalue=\"JUnit.UserService.POST_TC005_SendEmailVerification\" />\n        <item itemvalue=\"JUnit.UserService.GET_TC004_GetUserbyId\" />\n        <item itemvalue=\"JUnit.UserService.POST_TC003_AddNewUser\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"3d325d99-6d0c-4923-b923-df63e01baf8f\" name=\"Changes\" comment=\"\" />\n      <created>1680625629772</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1680625629772</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"5 nisan\">\n      <created>1680718331329</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1680718331329</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"all steps added\">\n      <created>1680737491201</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1680737491201</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"all steps added\">\n      <created>1680737500946</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1680737500946</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"6 Nisan Pazartesi..&#10;Tüm stepler çalıştı\">\n      <created>1680793936871</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1680793936871</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"5\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"5 nisan\" />\n    <MESSAGE value=\"6 nisan\" />\n    <MESSAGE value=\"all steps added\" />\n    <MESSAGE value=\"6 Nisan Pazartesi..&#10;Tüm stepler çalıştı\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"6 Nisan Pazartesi..&#10;Tüm stepler çalıştı\" />\n  </component>\n</project>
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/workspace.xml b/.idea/workspace.xml
++--- a/.idea/workspace.xml	(revision b91c7d4c322577aa83a91ce42be9aec9f5d342e3)
+++++ b/.idea/workspace.xml	(date 1680899216183)
++@@ -4,13 +4,10 @@
++     <option name="autoReloadType" value="SELECTIVE" />
++   </component>
++   <component name="ChangeListManager">
++-    <list default="true" id="3d325d99-6d0c-4923-b923-df63e01baf8f" name="Changes" comment="6 Nisan Pazartesi..&#10;Tüm stepler çalıştı">
++-      <change afterPath="$PROJECT_DIR$/src/test/java/allRequest/UserService2.java" afterDir="false" />
++-      <change afterPath="$PROJECT_DIR$/src/test/java/allRequest/deneme.java" afterDir="false" />
+++    <list default="true" id="3d325d99-6d0c-4923-b923-df63e01baf8f" name="Changes" comment="7 Nisan Cuma..&#10;Tüm Stepler çalıştı.&#10;newUserID için string oluşturuldu.">
++       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+++      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
++       <change beforePath="$PROJECT_DIR$/src/test/java/allRequest/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allRequest/UserService.java" afterDir="false" />
++-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestConfiguration.java" afterDir="false" />
++     </list>
++     <option name="SHOW_DIALOG" value="false" />
++     <option name="HIGHLIGHT_CONFLICTS" value="true" />
++@@ -68,8 +65,8 @@
++       <recent name="datasPojo" />
++     </key>
++   </component>
++-  <component name="RunManager" selected="JUnit.UserService.DELETE_TC008_DeleteUser">
++-    <configuration name="UserService.DELETE_TC008_DeleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+++  <component name="RunManager" selected="JUnit.UserService.TC003_POST_AddNewUser">
+++    <configuration name="UserService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++       <module name="CapstoneProjectAPI" />
++       <extension name="coverage">
++         <pattern>
++@@ -79,13 +76,12 @@
++       </extension>
++       <option name="PACKAGE_NAME" value="allRequest" />
++       <option name="MAIN_CLASS_NAME" value="allRequest.UserService" />
++-      <option name="METHOD_NAME" value="DELETE_TC008_DeleteUser" />
++-      <option name="TEST_OBJECT" value="method" />
+++      <option name="TEST_OBJECT" value="class" />
++       <method v="2">
++         <option name="Make" enabled="true" />
++       </method>
++     </configuration>
++-    <configuration name="UserService.GET_TC004_GetUserbyId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+++    <configuration name="UserService.GET_TC001_GetAllUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++       <module name="CapstoneProjectAPI" />
++       <extension name="coverage">
++         <pattern>
++@@ -95,13 +91,13 @@
++       </extension>
++       <option name="PACKAGE_NAME" value="allRequest" />
++       <option name="MAIN_CLASS_NAME" value="allRequest.UserService" />
++-      <option name="METHOD_NAME" value="GET_TC004_GetUserbyId" />
+++      <option name="METHOD_NAME" value="GET_TC001_GetAllUsers" />
++       <option name="TEST_OBJECT" value="method" />
++       <method v="2">
++         <option name="Make" enabled="true" />
++       </method>
++     </configuration>
++-    <configuration name="UserService.POST_TC003_AddNewUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+++    <configuration name="UserService.GET_TC002_GetAllUsersofOrganization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++       <module name="CapstoneProjectAPI" />
++       <extension name="coverage">
++         <pattern>
++@@ -111,13 +107,13 @@
++       </extension>
++       <option name="PACKAGE_NAME" value="allRequest" />
++       <option name="MAIN_CLASS_NAME" value="allRequest.UserService" />
++-      <option name="METHOD_NAME" value="POST_TC003_AddNewUser" />
+++      <option name="METHOD_NAME" value="GET_TC002_GetAllUsersofOrganization" />
++       <option name="TEST_OBJECT" value="method" />
++       <method v="2">
++         <option name="Make" enabled="true" />
++       </method>
++     </configuration>
++-    <configuration name="UserService.POST_TC005_SendEmailVerification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+++    <configuration name="UserService.POST_TC003_AddNewUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++       <module name="CapstoneProjectAPI" />
++       <extension name="coverage">
++         <pattern>
++@@ -127,13 +123,13 @@
++       </extension>
++       <option name="PACKAGE_NAME" value="allRequest" />
++       <option name="MAIN_CLASS_NAME" value="allRequest.UserService" />
++-      <option name="METHOD_NAME" value="POST_TC005_SendEmailVerification" />
+++      <option name="METHOD_NAME" value="POST_TC003_AddNewUser" />
++       <option name="TEST_OBJECT" value="method" />
++       <method v="2">
++         <option name="Make" enabled="true" />
++       </method>
++     </configuration>
++-    <configuration name="UserService.PUT_TC007_UpdateExistingUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+++    <configuration name="UserService.TC003_POST_AddNewUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++       <module name="CapstoneProjectAPI" />
++       <extension name="coverage">
++         <pattern>
++@@ -143,7 +139,7 @@
++       </extension>
++       <option name="PACKAGE_NAME" value="allRequest" />
++       <option name="MAIN_CLASS_NAME" value="allRequest.UserService" />
++-      <option name="METHOD_NAME" value="PUT_TC007_UpdateExistingUser" />
+++      <option name="METHOD_NAME" value="TC003_POST_AddNewUser" />
++       <option name="TEST_OBJECT" value="method" />
++       <method v="2">
++         <option name="Make" enabled="true" />
++@@ -151,11 +147,11 @@
++     </configuration>
++     <recent_temporary>
++       <list>
++-        <item itemvalue="JUnit.UserService.DELETE_TC008_DeleteUser" />
++-        <item itemvalue="JUnit.UserService.PUT_TC007_UpdateExistingUser" />
++-        <item itemvalue="JUnit.UserService.POST_TC005_SendEmailVerification" />
++-        <item itemvalue="JUnit.UserService.GET_TC004_GetUserbyId" />
+++        <item itemvalue="JUnit.UserService.TC003_POST_AddNewUser" />
+++        <item itemvalue="JUnit.UserService.GET_TC001_GetAllUsers" />
++         <item itemvalue="JUnit.UserService.POST_TC003_AddNewUser" />
+++        <item itemvalue="JUnit.UserService" />
+++        <item itemvalue="JUnit.UserService.GET_TC002_GetAllUsersofOrganization" />
++       </list>
++     </recent_temporary>
++   </component>
++@@ -196,7 +192,14 @@
++       <option name="project" value="LOCAL" />
++       <updated>1680793936871</updated>
++     </task>
++-    <option name="localTasksCounter" value="5" />
+++    <task id="LOCAL-00005" summary="7 Nisan Cuma..&#10;Tüm Stepler çalıştı.&#10;newUserID için string oluşturuldu.">
+++      <created>1680881414122</created>
+++      <option name="number" value="00005" />
+++      <option name="presentableId" value="LOCAL-00005" />
+++      <option name="project" value="LOCAL" />
+++      <updated>1680881414122</updated>
+++    </task>
+++    <option name="localTasksCounter" value="6" />
++     <servers />
++   </component>
++   <component name="Vcs.Log.Tabs.Properties">
++@@ -215,6 +218,7 @@
++     <MESSAGE value="6 nisan" />
++     <MESSAGE value="all steps added" />
++     <MESSAGE value="6 Nisan Pazartesi..&#10;Tüm stepler çalıştı" />
++-    <option name="LAST_COMMIT_MESSAGE" value="6 Nisan Pazartesi..&#10;Tüm stepler çalıştı" />
+++    <MESSAGE value="7 Nisan Cuma..&#10;Tüm Stepler çalıştı.&#10;newUserID için string oluşturuldu." />
+++    <option name="LAST_COMMIT_MESSAGE" value="7 Nisan Cuma..&#10;Tüm Stepler çalıştı.&#10;newUserID için string oluşturuldu." />
++   </component>
++ </project>
++\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"3d325d99-6d0c-4923-b923-df63e01baf8f\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/utilities/TestConfiguration.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/utilities/TestConfiguration.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"CodeStyleSettingsInfer\">\n    <option name=\"done\" value=\"true\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"baran\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectCodeStyleSettingsMigration\">\n    <option name=\"version\" value=\"2\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2Ny9o5XtqnRZMLgZYHILR2UxRc6\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/Baran/IdeaProjects/CapstoneProjectAPI/src/test/java/utilities&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"C:\\Users\\Baran\\IdeaProjects\\CapstoneProjectAPI\\src\\test\\java\\utilities\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"C:\\Users\\Baran\\IdeaProjects\\CapstoneProjectAPI\" />\n    </key>\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"allRequest\" />\n      <recent name=\"datasPojo\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"JUnit.UserService.DELETE_TC008_DeleteUser\">\n    <configuration name=\"UserService.DELETE_TC008_DeleteUser\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"CapstoneProjectAPI\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"allRequest.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"allRequest\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"allRequest.UserService\" />\n      <option name=\"METHOD_NAME\" value=\"DELETE_TC008_DeleteUser\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"UserService.GET_TC004_GetUserbyId\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"CapstoneProjectAPI\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"allRequest.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"allRequest\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"allRequest.UserService\" />\n      <option name=\"METHOD_NAME\" value=\"GET_TC004_GetUserbyId\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"UserService.POST_TC003_AddNewUser\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"CapstoneProjectAPI\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"allRequest.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"allRequest\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"allRequest.UserService\" />\n      <option name=\"METHOD_NAME\" value=\"POST_TC003_AddNewUser\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"UserService.POST_TC005_SendEmailVerification\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"CapstoneProjectAPI\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"allRequest.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"allRequest\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"allRequest.UserService\" />\n      <option name=\"METHOD_NAME\" value=\"POST_TC005_SendEmailVerification\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"UserService.PUT_TC007_UpdateExistingUser\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"CapstoneProjectAPI\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"allRequest.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"allRequest\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"allRequest.UserService\" />\n      <option name=\"METHOD_NAME\" value=\"PUT_TC007_UpdateExistingUser\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"JUnit.UserService.DELETE_TC008_DeleteUser\" />\n        <item itemvalue=\"JUnit.UserService.PUT_TC007_UpdateExistingUser\" />\n        <item itemvalue=\"JUnit.UserService.POST_TC005_SendEmailVerification\" />\n        <item itemvalue=\"JUnit.UserService.GET_TC004_GetUserbyId\" />\n        <item itemvalue=\"JUnit.UserService.POST_TC003_AddNewUser\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"3d325d99-6d0c-4923-b923-df63e01baf8f\" name=\"Changes\" comment=\"\" />\n      <created>1680625629772</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1680625629772</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"5 nisan\">\n      <created>1680718331329</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1680718331329</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"all steps added\">\n      <created>1680737491201</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1680737491201</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"all steps added\">\n      <created>1680737500946</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1680737500946</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"6 Nisan Pazartesi..&#10;Tüm stepler çalıştı\">\n      <created>1680793936871</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1680793936871</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"5\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"5 nisan\" />\n    <MESSAGE value=\"6 nisan\" />\n    <MESSAGE value=\"all steps added\" />\n    <MESSAGE value=\"6 Nisan Pazartesi..&#10;Tüm stepler çalıştı\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"6 Nisan Pazartesi..&#10;Tüm stepler çalıştı\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 75aeb10311aaa3a9bd98d335fc44f30fba15ace4)
++++ b/.idea/workspace.xml	(date 1680903685835)
+@@ -5,8 +5,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="3d325d99-6d0c-4923-b923-df63e01baf8f" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestConfiguration.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_04_2023_17_37_[Changes]/shelved.patch" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_04_2023_17_39_[Changes]/shelved.patch" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_7_04_2023_17_39_[Changes]/shelved.patch
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_04_2023_17_39_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_04_2023_17_39_[Changes]/shelved.patch
+new file mode 100644
+--- /dev/null	(date 1680903654057)
++++ b/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_04_2023_17_39_[Changes]/shelved.patch	(date 1680903654057)
+@@ -0,0 +1,214 @@
++Index: .idea/workspace.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
++<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"3d325d99-6d0c-4923-b923-df63e01baf8f\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"CodeStyleSettingsInfer\">\n    <option name=\"done\" value=\"true\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectCodeStyleSettingsMigration\">\n    <option name=\"version\" value=\"2\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2Ny9o5XtqnRZMLgZYHILR2UxRc6\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\n    \"dart.analysis.tool.window.visible\": \"false\",\n    \"last_opened_file_path\": \"C:/Users/Baran/IdeaProjects/CapstoneProjectAPI/src/test/java/utilities\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"C:\\Users\\Baran\\IdeaProjects\\CapstoneProjectAPI\\src\\test\\java\\utilities\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"C:\\Users\\Baran\\IdeaProjects\\CapstoneProjectAPI\" />\n    </key>\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"datasPojo\" />\n      <recent name=\"allRequest\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"JUnit.UserService.GET_TC001_GetAllUsers2\">\n    <configuration name=\"UserService\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"CapstoneProjectAPI\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"allRequest.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"allRequest\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"allRequest.UserService\" />\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"UserService.GET_TC001_GetAllUsers\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"CapstoneProjectAPI\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"allRequest.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"allRequest\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"allRequest.UserService\" />\n      <option name=\"METHOD_NAME\" value=\"GET_TC001_GetAllUsers\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"UserService.GET_TC001_GetAllUsers2\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"CapstoneProjectAPI\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"allRequest.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"allRequest\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"allRequest.UserService\" />\n      <option name=\"METHOD_NAME\" value=\"GET_TC001_GetAllUsers2\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"JUnit.UserService.GET_TC001_GetAllUsers2\" />\n        <item itemvalue=\"JUnit.UserService.GET_TC001_GetAllUsers\" />\n        <item itemvalue=\"JUnit.UserService\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"3d325d99-6d0c-4923-b923-df63e01baf8f\" name=\"Changes\" comment=\"\" />\n      <created>1680625629772</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1680625629772</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n</project>
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/workspace.xml b/.idea/workspace.xml
++--- a/.idea/workspace.xml	(revision 14fb140b00b310062ef5a7216b89d203493fd155)
+++++ b/.idea/workspace.xml	(date 1680903430568)
++@@ -4,8 +4,13 @@
++     <option name="autoReloadType" value="SELECTIVE" />
++   </component>
++   <component name="ChangeListManager">
++-    <list default="true" id="3d325d99-6d0c-4923-b923-df63e01baf8f" name="Changes" comment="">
+++    <list default="true" id="3d325d99-6d0c-4923-b923-df63e01baf8f" name="Changes" comment="6 Nisan Pazartesi..&#10;Tüm stepler çalıştı">
+++      <change afterPath="$PROJECT_DIR$/src/test/java/allRequest/UserService2.java" afterDir="false" />
+++      <change afterPath="$PROJECT_DIR$/src/test/java/allRequest/deneme.java" afterDir="false" />
++       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+++      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+++      <change beforePath="$PROJECT_DIR$/src/test/java/allRequest/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allRequest/UserService.java" afterDir="false" />
+++      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestConfiguration.java" afterDir="false" />
++     </list>
++     <option name="SHOW_DIALOG" value="false" />
++     <option name="HIGHLIGHT_CONFLICTS" value="true" />
++@@ -23,6 +28,11 @@
++     </option>
++   </component>
++   <component name="Git.Settings">
+++    <option name="RECENT_BRANCH_BY_REPOSITORY">
+++      <map>
+++        <entry key="$PROJECT_DIR$" value="main" />
+++      </map>
+++    </option>
++     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++   </component>
++   <component name="MarkdownSettingsMigration">
++@@ -37,15 +47,15 @@
++     <option name="hideEmptyMiddlePackages" value="true" />
++     <option name="showLibraryContents" value="true" />
++   </component>
++-  <component name="PropertiesComponent"><![CDATA[{
++-  "keyToString": {
++-    "RunOnceActivity.OpenProjectViewOnStart": "true",
++-    "RunOnceActivity.ShowReadmeOnStart": "true",
++-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
++-    "dart.analysis.tool.window.visible": "false",
++-    "last_opened_file_path": "C:/Users/Baran/IdeaProjects/CapstoneProjectAPI/src/test/java/utilities"
+++  <component name="PropertiesComponent">{
+++  &quot;keyToString&quot;: {
+++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+++    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+++    &quot;last_opened_file_path&quot;: &quot;C:/Users/Baran/IdeaProjects/CapstoneProjectAPI/src/test/java/utilities&quot;
++   }
++-}]]></component>
+++}</component>
++   <component name="RecentsManager">
++     <key name="CopyFile.RECENT_KEYS">
++       <recent name="C:\Users\Baran\IdeaProjects\CapstoneProjectAPI\src\test\java\utilities" />
++@@ -54,12 +64,28 @@
++       <recent name="C:\Users\Baran\IdeaProjects\CapstoneProjectAPI" />
++     </key>
++     <key name="CopyClassDialog.RECENTS_KEY">
++-      <recent name="datasPojo" />
++       <recent name="allRequest" />
+++      <recent name="datasPojo" />
++     </key>
++   </component>
++-  <component name="RunManager" selected="JUnit.UserService.GET_TC001_GetAllUsers2">
++-    <configuration name="UserService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+++  <component name="RunManager" selected="JUnit.UserService.DELETE_TC008_DeleteUser">
+++    <configuration name="UserService.DELETE_TC008_DeleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+++      <module name="CapstoneProjectAPI" />
+++      <extension name="coverage">
+++        <pattern>
+++          <option name="PATTERN" value="allRequest.*" />
+++          <option name="ENABLED" value="true" />
+++        </pattern>
+++      </extension>
+++      <option name="PACKAGE_NAME" value="allRequest" />
+++      <option name="MAIN_CLASS_NAME" value="allRequest.UserService" />
+++      <option name="METHOD_NAME" value="DELETE_TC008_DeleteUser" />
+++      <option name="TEST_OBJECT" value="method" />
+++      <method v="2">
+++        <option name="Make" enabled="true" />
+++      </method>
+++    </configuration>
+++    <configuration name="UserService.GET_TC004_GetUserbyId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++       <module name="CapstoneProjectAPI" />
++       <extension name="coverage">
++         <pattern>
++@@ -69,12 +95,13 @@
++       </extension>
++       <option name="PACKAGE_NAME" value="allRequest" />
++       <option name="MAIN_CLASS_NAME" value="allRequest.UserService" />
++-      <option name="TEST_OBJECT" value="class" />
+++      <option name="METHOD_NAME" value="GET_TC004_GetUserbyId" />
+++      <option name="TEST_OBJECT" value="method" />
++       <method v="2">
++         <option name="Make" enabled="true" />
++       </method>
++     </configuration>
++-    <configuration name="UserService.GET_TC001_GetAllUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+++    <configuration name="UserService.POST_TC003_AddNewUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++       <module name="CapstoneProjectAPI" />
++       <extension name="coverage">
++         <pattern>
++@@ -84,13 +111,13 @@
++       </extension>
++       <option name="PACKAGE_NAME" value="allRequest" />
++       <option name="MAIN_CLASS_NAME" value="allRequest.UserService" />
++-      <option name="METHOD_NAME" value="GET_TC001_GetAllUsers" />
+++      <option name="METHOD_NAME" value="POST_TC003_AddNewUser" />
++       <option name="TEST_OBJECT" value="method" />
++       <method v="2">
++         <option name="Make" enabled="true" />
++       </method>
++     </configuration>
++-    <configuration name="UserService.GET_TC001_GetAllUsers2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+++    <configuration name="UserService.POST_TC005_SendEmailVerification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++       <module name="CapstoneProjectAPI" />
++       <extension name="coverage">
++         <pattern>
++@@ -100,7 +127,23 @@
++       </extension>
++       <option name="PACKAGE_NAME" value="allRequest" />
++       <option name="MAIN_CLASS_NAME" value="allRequest.UserService" />
++-      <option name="METHOD_NAME" value="GET_TC001_GetAllUsers2" />
+++      <option name="METHOD_NAME" value="POST_TC005_SendEmailVerification" />
+++      <option name="TEST_OBJECT" value="method" />
+++      <method v="2">
+++        <option name="Make" enabled="true" />
+++      </method>
+++    </configuration>
+++    <configuration name="UserService.PUT_TC007_UpdateExistingUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+++      <module name="CapstoneProjectAPI" />
+++      <extension name="coverage">
+++        <pattern>
+++          <option name="PATTERN" value="allRequest.*" />
+++          <option name="ENABLED" value="true" />
+++        </pattern>
+++      </extension>
+++      <option name="PACKAGE_NAME" value="allRequest" />
+++      <option name="MAIN_CLASS_NAME" value="allRequest.UserService" />
+++      <option name="METHOD_NAME" value="PUT_TC007_UpdateExistingUser" />
++       <option name="TEST_OBJECT" value="method" />
++       <method v="2">
++         <option name="Make" enabled="true" />
++@@ -108,9 +151,11 @@
++     </configuration>
++     <recent_temporary>
++       <list>
++-        <item itemvalue="JUnit.UserService.GET_TC001_GetAllUsers2" />
++-        <item itemvalue="JUnit.UserService.GET_TC001_GetAllUsers" />
++-        <item itemvalue="JUnit.UserService" />
+++        <item itemvalue="JUnit.UserService.DELETE_TC008_DeleteUser" />
+++        <item itemvalue="JUnit.UserService.PUT_TC007_UpdateExistingUser" />
+++        <item itemvalue="JUnit.UserService.POST_TC005_SendEmailVerification" />
+++        <item itemvalue="JUnit.UserService.GET_TC004_GetUserbyId" />
+++        <item itemvalue="JUnit.UserService.POST_TC003_AddNewUser" />
++       </list>
++     </recent_temporary>
++   </component>
++@@ -123,6 +168,35 @@
++       <option name="presentableId" value="Default" />
++       <updated>1680625629772</updated>
++     </task>
+++    <task id="LOCAL-00001" summary="5 nisan">
+++      <created>1680718331329</created>
+++      <option name="number" value="00001" />
+++      <option name="presentableId" value="LOCAL-00001" />
+++      <option name="project" value="LOCAL" />
+++      <updated>1680718331329</updated>
+++    </task>
+++    <task id="LOCAL-00002" summary="all steps added">
+++      <created>1680737491201</created>
+++      <option name="number" value="00002" />
+++      <option name="presentableId" value="LOCAL-00002" />
+++      <option name="project" value="LOCAL" />
+++      <updated>1680737491201</updated>
+++    </task>
+++    <task id="LOCAL-00003" summary="all steps added">
+++      <created>1680737500946</created>
+++      <option name="number" value="00003" />
+++      <option name="presentableId" value="LOCAL-00003" />
+++      <option name="project" value="LOCAL" />
+++      <updated>1680737500946</updated>
+++    </task>
+++    <task id="LOCAL-00004" summary="6 Nisan Pazartesi..&#10;Tüm stepler çalıştı">
+++      <created>1680793936871</created>
+++      <option name="number" value="00004" />
+++      <option name="presentableId" value="LOCAL-00004" />
+++      <option name="project" value="LOCAL" />
+++      <updated>1680793936871</updated>
+++    </task>
+++    <option name="localTasksCounter" value="5" />
++     <servers />
++   </component>
++   <component name="Vcs.Log.Tabs.Properties">
++@@ -136,4 +210,11 @@
++       </map>
++     </option>
++   </component>
+++  <component name="VcsManagerConfiguration">
+++    <MESSAGE value="5 nisan" />
+++    <MESSAGE value="6 nisan" />
+++    <MESSAGE value="all steps added" />
+++    <MESSAGE value="6 Nisan Pazartesi..&#10;Tüm stepler çalıştı" />
+++    <option name="LAST_COMMIT_MESSAGE" value="6 Nisan Pazartesi..&#10;Tüm stepler çalıştı" />
+++  </component>
++ </project>
++\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\n  <component name=\"MavenProjectsManager\">\n    <option name=\"originalFiles\">\n      <list>\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" default=\"true\" project-jdk-name=\"11\" project-jdk-type=\"JavaSDK\">\n    <output url=\"file://$PROJECT_DIR$/out\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 75aeb10311aaa3a9bd98d335fc44f30fba15ace4)
++++ b/.idea/misc.xml	(date 1680903685841)
+@@ -8,7 +8,7 @@
+       </list>
+     </option>
+   </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
