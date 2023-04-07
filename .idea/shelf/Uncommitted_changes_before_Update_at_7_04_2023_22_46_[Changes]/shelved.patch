@@ -1,0 +1,93 @@
+Index: src/test/java/utilities/TestConfiguration.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package utilities;\r\n\r\nimport com.aventstack.extentreports.ExtentReports;\r\nimport com.aventstack.extentreports.ExtentTest;\r\nimport com.aventstack.extentreports.reporter.ExtentHtmlReporter;\r\nimport com.aventstack.extentreports.reporter.ExtentSparkReporter;\r\nimport io.github.bonigarcia.wdm.WebDriverManager;\r\nimport io.restassured.builder.RequestSpecBuilder;\r\nimport io.restassured.path.json.JsonPath;\r\nimport io.restassured.specification.RequestSpecification;\r\nimport org.junit.After;\r\nimport org.junit.AfterClass;\r\nimport org.junit.Before;\r\nimport org.junit.BeforeClass;\r\nimport org.openqa.selenium.By;\r\nimport org.openqa.selenium.WebDriver;\r\nimport org.openqa.selenium.chrome.ChromeDriver;\r\nimport org.openqa.selenium.chrome.ChromeOptions;\r\n\r\nimport java.text.SimpleDateFormat;\r\nimport java.util.Date;\r\n\r\npublic class TestConfiguration {\r\n\r\n    protected RequestSpecification specification;\r\n   static String username = ConfigReader.getProperty(\"username\");\r\n   static String password = ConfigReader.getProperty(\"password\");\r\n\r\n    protected ExtentReports extentReports;\r\n\r\n    protected ExtentSparkReporter extentSparkReporter;\r\n    protected ExtentTest extentTest;\r\n    public static String access_token;\r\n\r\n\r\n    @BeforeClass\r\n    public static void setDriver(){\r\n        WebDriver driver = new ChromeDriver();\r\n        WebDriverManager.chromedriver().setup();\r\n        ChromeOptions opt = new ChromeOptions().setHeadless(true);\r\n        driver.get(\"https://qa-gm3.quaspareparts.com/oauth2/authorization/a3m-client\");\r\n        driver.findElement(By.id(\"username\")).sendKeys(username);\r\n        driver.findElement(By.id(\"password\")).sendKeys(password);\r\n        driver.findElement(By.tagName(\"button\")).click();\r\n        driver.navigate().to(\"https://qa-gm3.quaspareparts.com/auth/userinfo\");\r\n        JsonPath path = new JsonPath(driver.findElement(By.tagName(\"body\")).getText());\r\n        access_token = path.getString(\"access_token\");\r\n        System.out.println(\"Token: \" + access_token);\r\n        driver.quit();\r\n    }\r\n    @Before\r\n    public void setup(){\r\n        extentReports = new ExtentReports();\r\n\r\n\r\n        String currentDate = new SimpleDateFormat(\"yyyy_MM_dd_hh_mm_ss\").format(new Date());\r\n        String filePath =System.getProperty(\"user.dir\")+\"\\\\test-output\\\\Reports\\\\testReport_\" + currentDate + \".html\";//Raporlarımızın kaydedileceği yeri oluşturduk\r\n\r\n\r\n        extentSparkReporter = new ExtentSparkReporter(filePath);\r\n\r\n\r\n        extentReports.attachReporter(extentSparkReporter);\r\n\r\n\r\n        extentReports.setSystemInfo(\"Enviroment\", \"QA\");\r\n        extentReports.setSystemInfo(\"Browser\", \"Chrome\");\r\n        extentReports.setSystemInfo(\"Test Site\", \"RxDrugsHub\");\r\n        extentReports.setSystemInfo(\"Test Type\", \"REST API Testing\");\r\n        extentReports.setSystemInfo(\"Request Type\", \"POST\");\r\n\r\n        extentSparkReporter.config().setDocumentTitle(\"Team06 Report\");\r\n        extentSparkReporter.config().setReportName(\"Team06 Report\");\r\n\r\n        specification = new RequestSpecBuilder().setBaseUri(ConfigReader.getProperty(\"baseURL\")).build();\r\n\r\n    }\r\n\r\n    @After\r\n    public void closeReports(){\r\n        extentReports.flush();\r\n    }\r\n\r\n    @AfterClass\r\n    public static void aa(){\r\n\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/utilities/TestConfiguration.java b/src/test/java/utilities/TestConfiguration.java
+--- a/src/test/java/utilities/TestConfiguration.java	(revision 1ad8e8a022220ea31405808b8681853fb66838aa)
++++ b/src/test/java/utilities/TestConfiguration.java	(date 1680647783129)
+@@ -67,7 +67,6 @@
+         extentReports.setSystemInfo("Browser", "Chrome");
+         extentReports.setSystemInfo("Test Site", "RxDrugsHub");
+         extentReports.setSystemInfo("Test Type", "REST API Testing");
+-        extentReports.setSystemInfo("Request Type", "POST");
+ 
+         extentSparkReporter.config().setDocumentTitle("Team06 Report");
+         extentSparkReporter.config().setReportName("Team06 Report");
+@@ -82,8 +81,8 @@
+     }
+ 
+     @AfterClass
+-    public static void aa(){
+-
++    public static void endTest(){
++        System.out.println("Test sonlandı");
+     }
+ 
+ }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"3d325d99-6d0c-4923-b923-df63e01baf8f\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"CodeStyleSettingsInfer\">\r\n    <option name=\"done\" value=\"true\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectCodeStyleSettingsMigration\">\r\n    <option name=\"version\" value=\"2\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2Ny9o5XtqnRZMLgZYHILR2UxRc6\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"dart.analysis.tool.window.visible\": \"false\",\r\n    \"last_opened_file_path\": \"C:/Users/Baran/IdeaProjects/CapstoneProjectAPI/src/test/java/utilities\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Baran\\IdeaProjects\\CapstoneProjectAPI\\src\\test\\java\\utilities\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Baran\\IdeaProjects\\CapstoneProjectAPI\" />\r\n    </key>\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"datasPojo\" />\r\n      <recent name=\"allRequest\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"JUnit.UserService.GET_TC001_GetAllUsers2\">\r\n    <configuration name=\"UserService\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"CapstoneProjectAPI\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"allRequest.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"allRequest\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"allRequest.UserService\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"UserService.GET_TC001_GetAllUsers\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"CapstoneProjectAPI\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"allRequest.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"allRequest\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"allRequest.UserService\" />\r\n      <option name=\"METHOD_NAME\" value=\"GET_TC001_GetAllUsers\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"UserService.GET_TC001_GetAllUsers2\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"CapstoneProjectAPI\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"allRequest.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"allRequest\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"allRequest.UserService\" />\r\n      <option name=\"METHOD_NAME\" value=\"GET_TC001_GetAllUsers2\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.UserService.GET_TC001_GetAllUsers2\" />\r\n        <item itemvalue=\"JUnit.UserService.GET_TC001_GetAllUsers\" />\r\n        <item itemvalue=\"JUnit.UserService\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"3d325d99-6d0c-4923-b923-df63e01baf8f\" name=\"Changes\" comment=\"\" />\r\n      <created>1680625629772</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1680625629772</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 1ad8e8a022220ea31405808b8681853fb66838aa)
++++ b/.idea/workspace.xml	(date 1680896617990)
+@@ -6,6 +6,7 @@
+   <component name="ChangeListManager">
+     <list default="true" id="3d325d99-6d0c-4923-b923-df63e01baf8f" name="Changes" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestConfiguration.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -23,6 +24,11 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="main" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="MarkdownSettingsMigration">
+@@ -37,15 +43,15 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "dart.analysis.tool.window.visible": "false",
+-    "last_opened_file_path": "C:/Users/Baran/IdeaProjects/CapstoneProjectAPI/src/test/java/utilities"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/Baran/IdeaProjects/CapstoneProjectAPI/src/test/java/utilities&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\Users\Baran\IdeaProjects\CapstoneProjectAPI\src\test\java\utilities" />
+@@ -108,8 +114,8 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="JUnit.UserService.GET_TC001_GetAllUsers" />
+         <item itemvalue="JUnit.UserService.GET_TC001_GetAllUsers2" />
+-        <item itemvalue="JUnit.UserService.GET_TC001_GetAllUsers" />
+         <item itemvalue="JUnit.UserService" />
+       </list>
+     </recent_temporary>
