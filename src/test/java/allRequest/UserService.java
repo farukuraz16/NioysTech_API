@@ -2,6 +2,7 @@ package allRequest;
 
 import datasPojo.UserServicePojo;
 import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.junit.Test;
 import org.junit.jupiter.api.TestInfo;
@@ -16,13 +17,13 @@ import static junit.framework.TestCase.assertEquals;
 
 public class UserService extends TestConfiguration {
     HashMap<String, Object> responseBody;
-    String newUserID = "106";
+    public static String newUserID;
     ///TestInfo ???
     //Dependency Injection
 
     @Test
-    public void GET_TC001_GetAllUsers() {
-        extentTest = extentReports.createTest("My Test","Description");
+    public void TC001_GET_GetAllUsers() {
+        extentTest = extentReports.createTest("My Test", "Description");
         extentTest.info("URL set edildi");
 
         specification.pathParam("userPath", "user");
@@ -52,8 +53,8 @@ public class UserService extends TestConfiguration {
     }
 
     @Test
-    public void GET_TC002_GetAllUsersofOrganization() {
-        extentTest = extentReports.createTest("My Test2","Description2");
+    public void TC002_GET_GetAllUsersofOrganization() {
+        extentTest = extentReports.createTest("My Test2", "Description2");
         extentTest.info("URL set edildi");
 
         //String URL = "https://a3m-qa-gm3.quaspareparts.com/auth/api/user?organizationId=1";
@@ -85,8 +86,8 @@ public class UserService extends TestConfiguration {
     }
 
     @Test
-    public void POST_TC003_AddNewUser() {
-        extentTest = extentReports.createTest("My Test3","Description3");
+    public void TC003_POST_AddNewUser() {
+        extentTest = extentReports.createTest("My Test3", "Description3");
         extentTest.info("URL set edildi");
 
         String URL = ConfigReader.getProperty("baseURL") + "/organization/1/application/2/role/5/user";
@@ -112,7 +113,13 @@ public class UserService extends TestConfiguration {
         extentTest.info("Response yazdırıldı");
         response.prettyPrint();
 
+
+        // JsonPath responseBody = response.jsonPath();
+
         responseBody = JsonToJava.convertJsonToJavaObject(response.asString(), HashMap.class);
+
+        //newUserID = responseBody.get("id").toString();
+        //System.out.println("newUserID = " + newUserID);
 
         System.out.println("expectedDataMap = " + requestBody);
         System.out.println("actualDataMap = " + responseBody.toString());
@@ -137,8 +144,8 @@ public class UserService extends TestConfiguration {
     }
 
     @Test
-    public void GET_TC004_GetUserbyId() {
-        extentTest = extentReports.createTest("My Test3","Description3");
+    public void TC004_GET_GetUserbyId() {
+        extentTest = extentReports.createTest("My Test3", "Description3");
         extentTest.info("URL set edildi");
 //        String URL = "https://a3m-qa-gm3.quaspareparts.com/auth/api/user/336";
         specification.pathParams("userPath", "user", "idPath", newUserID);
@@ -172,8 +179,8 @@ public class UserService extends TestConfiguration {
 
 
     @Test
-    public void POST_TC005_SendEmailVerification() {
-        extentTest = extentReports.createTest("My Test3","Description3");
+    public void TC005_POST_SendEmailVerification() {
+        extentTest = extentReports.createTest("My Test3", "Description3");
 
         extentTest.info("URL set edildi");
         String URL = "https://a3m-qa-gm3.quaspareparts.com/auth/api/user/send-verification-request?organizationId=1&appId=2";
@@ -208,8 +215,8 @@ public class UserService extends TestConfiguration {
     }
 
     @Test
-    public void PUT_TC007_UpdateExistingUser() {
-        extentTest = extentReports.createTest("My Test3","Description3");
+    public void TC006_PUT_UpdateExistingUser() {
+        extentTest = extentReports.createTest("My Test3", "Description3");
         UserServicePojo requestBody = new UserServicePojo(
                 newUserID,
                 "IronMan",
@@ -245,8 +252,8 @@ public class UserService extends TestConfiguration {
     }
 
     @Test
-    public void DELETE_TC008_DeleteUser() {
-        extentTest = extentReports.createTest("My Test3","Description3");
+    public void TC007_DELETE_DeleteUser() {
+        extentTest = extentReports.createTest("My Test3", "Description3");
 
         extentTest.info("URL set edildi");
         specification.pathParams("userPath", "user", "idPath", newUserID);
