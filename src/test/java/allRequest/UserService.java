@@ -18,7 +18,7 @@ public class UserService extends TestConfiguration {
     HashMap<String, Object> responseBody;
     public static String newUserID = "406";
 
-    @Test
+    @Test //Get All Users
     public void TC001() {
         extentTest = extentReports.createTest("User Service TC001", "TC001_GET_GetAllUsers");
 
@@ -43,7 +43,7 @@ public class UserService extends TestConfiguration {
         extentTest.pass("Testimiz gecerli");
     }
 
-    @Test
+    @Test//Get All Users of Organization
     public void TC002() {
         extentTest = extentReports.createTest("User Service TC002", "TC002_GET_GetAllUsersofOrganization");
         extentTest.info("URL set edildi");
@@ -71,7 +71,7 @@ public class UserService extends TestConfiguration {
         extentTest.pass("Testimiz gecerli");
     }
 
-    @Test
+    @Test//Add New User
     public void TC003() {
         extentTest = extentReports.createTest("User Service TC003", "TC003_POST_AddNewUser");
         extentTest.info("URL set edildi");
@@ -110,7 +110,7 @@ public class UserService extends TestConfiguration {
         extentTest.fail("Testimiz gecersiz");
     }
 
-    @Test
+    @Test//Get User by Id
     public void TC004() {
         extentTest = extentReports.createTest("User Service TC004", "TC004_GET_GetUserbyId");
         extentTest.info("URL set edildi");
@@ -139,7 +139,7 @@ public class UserService extends TestConfiguration {
     }
 
 
-    @Test
+    @Test//Send email verification request to the user
     public void TC005() {
         extentTest = extentReports.createTest("User Service TC005", "TC005_POST_SendEmailVerification");
 
@@ -171,7 +171,7 @@ public class UserService extends TestConfiguration {
     }
 
 
-    @Test
+    @Test//Update Existing User
     public void TC006() {
         extentTest = extentReports.createTest("User Service TC006", "TC006_PUT_UpdateExistingUser");
         UserServicePojo requestBody = new UserServicePojo(
@@ -211,7 +211,7 @@ public class UserService extends TestConfiguration {
         assertEquals(requestBody.getName(), responseBody.get("name"));
     }
 
-    @Test
+    @Test//Update Existing User (Negatif)
     public void TC007() {
         extentTest = extentReports.createTest("User Service TC006", "TC006_PUT_UpdateExistingUser");
         UserServicePojo requestBody = new UserServicePojo(
@@ -244,7 +244,7 @@ public class UserService extends TestConfiguration {
         response.then().assertThat().statusCode(404);
     }
 
-    @Test
+    @Test//Delete Existing User by Id
     public void TC008() {
         extentTest = extentReports.createTest("User Service TC007", "TC007_DELETE_DeleteUser");
 
