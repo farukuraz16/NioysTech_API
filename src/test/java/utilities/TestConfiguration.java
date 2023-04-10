@@ -16,6 +16,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -33,8 +35,8 @@ public class TestConfiguration {
     public static String access_token;
 
 
-    @BeforeClass
-    public static void setDriver() {
+@BeforeClass
+public static void setDriver() {
         WebDriverManager.chromedriver().setup();
         ChromeOptions opt = new ChromeOptions().setHeadless(true);
         WebDriver driver = new ChromeDriver(opt);
@@ -49,8 +51,8 @@ public class TestConfiguration {
         driver.quit();
     }
 
-    @Before
-    public void setup() {
+@Before
+public void setup() {
         extentReports = new ExtentReports();
 
 
@@ -76,8 +78,8 @@ public class TestConfiguration {
 
     }
 
-    @After
-    public void closeReports() {
+@After
+public void closeReports() {
         extentReports.flush();
     }
 

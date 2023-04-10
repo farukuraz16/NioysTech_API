@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d325d99-6d0c-4923-b923-df63e01baf8f" name="Changes" comment="Jenkis Files were merged..">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_04_2023_17_37__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_04_2023_17_39__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/allRequest/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allRequest/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="baran" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,7 +69,7 @@
       <recent name="datasPojo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserService.TC003_POST_AddNewUser">
+  <component name="RunManager" selected="JUnit.UserService.TC007">
     <configuration name="UserService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CapstoneProjectAPI" />
       <extension name="coverage">
@@ -85,7 +85,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserService.GET_TC001_GetAllUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserService.TC003" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CapstoneProjectAPI" />
       <extension name="coverage">
         <pattern>
@@ -95,13 +95,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="allRequest" />
       <option name="MAIN_CLASS_NAME" value="allRequest.UserService" />
-      <option name="METHOD_NAME" value="GET_TC001_GetAllUsers" />
+      <option name="METHOD_NAME" value="TC003" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserService.GET_TC002_GetAllUsersofOrganization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserService.TC004" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CapstoneProjectAPI" />
       <extension name="coverage">
         <pattern>
@@ -111,13 +111,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="allRequest" />
       <option name="MAIN_CLASS_NAME" value="allRequest.UserService" />
-      <option name="METHOD_NAME" value="GET_TC002_GetAllUsersofOrganization" />
+      <option name="METHOD_NAME" value="TC004" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserService.POST_TC003_AddNewUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserService.TC006" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CapstoneProjectAPI" />
       <extension name="coverage">
         <pattern>
@@ -127,13 +127,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="allRequest" />
       <option name="MAIN_CLASS_NAME" value="allRequest.UserService" />
-      <option name="METHOD_NAME" value="POST_TC003_AddNewUser" />
+      <option name="METHOD_NAME" value="TC006" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserService.TC003_POST_AddNewUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserService.TC007" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CapstoneProjectAPI" />
       <extension name="coverage">
         <pattern>
@@ -143,7 +143,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="allRequest" />
       <option name="MAIN_CLASS_NAME" value="allRequest.UserService" />
-      <option name="METHOD_NAME" value="TC003_POST_AddNewUser" />
+      <option name="METHOD_NAME" value="TC007" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,10 +151,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserService.TC003_POST_AddNewUser" />
-        <item itemvalue="JUnit.UserService.POST_TC003_AddNewUser" />
-        <item itemvalue="JUnit.UserService.GET_TC002_GetAllUsersofOrganization" />
-        <item itemvalue="JUnit.UserService.GET_TC001_GetAllUsers" />
+        <item itemvalue="JUnit.UserService.TC007" />
+        <item itemvalue="JUnit.UserService.TC004" />
+        <item itemvalue="JUnit.UserService.TC006" />
+        <item itemvalue="JUnit.UserService.TC003" />
         <item itemvalue="JUnit.UserService" />
       </list>
     </recent_temporary>
