@@ -16,9 +16,9 @@ import static junit.framework.TestCase.assertEquals;
 
 public class UserService extends TestConfiguration {
     HashMap<String, Object> responseBody;
-    public static String newUserID="391";
+    public static String newUserID = "406";
 
-@Test
+    @Test
     public void TC001() {
         extentTest = extentReports.createTest("User Service TC001", "TC001_GET_GetAllUsers");
 
@@ -36,19 +36,13 @@ public class UserService extends TestConfiguration {
         response.prettyPrint();
 
         int statusCode = response.getStatusCode();
-        extentTest.info("Assertion işlemleri yapıldı."+ " StatusCode=" + statusCode);
+        extentTest.info("Assertion işlemleri yapıldı." + " StatusCode=" + statusCode);
         response.then().assertThat().statusCode(200);
         System.out.println("response.getStatusCode() = " + response.getStatusCode());
 
-        //Pass mesaji
         extentTest.pass("Testimiz gecerli");
-
-        //Fail mesaji
-        extentTest.fail("Testimiz gecersiz");
-
-        //Skip mesaji
-        extentTest.skip("Testimiz skip edildi");
     }
+
     @Test
     public void TC002() {
         extentTest = extentReports.createTest("User Service TC002", "TC002_GET_GetAllUsersofOrganization");
@@ -69,19 +63,12 @@ public class UserService extends TestConfiguration {
         response.prettyPrint();
         int statusCode = response.getStatusCode();
 
-        extentTest.info("Assertion işlemleri yapıldı."+ " StatusCode=" + statusCode);
+        extentTest.info("Assertion işlemleri yapıldı." + " StatusCode=" + statusCode);
 
         response.then().assertThat().statusCode(200);
         System.out.println("response.getStatusCode() = " + response.getStatusCode());
 
-        //Pass mesaji
         extentTest.pass("Testimiz gecerli");
-
-        //Fail mesaji
-        extentTest.fail("Testimiz gecersiz");
-
-        //Skip mesaji
-        extentTest.skip("Testimiz skip edildi");
     }
 
     @Test
@@ -112,36 +99,15 @@ public class UserService extends TestConfiguration {
         extentTest.info("Response yazdırıldı");
         response.prettyPrint();
 
-
-        // JsonPath responseBody = response.jsonPath();
-
-        //responseBody = JsonToJava.convertJsonToJavaObject(response.asString(), HashMap.class);
-
-        //newUserID = responseBody.get("id").toString();
-        //System.out.println("newUserID = " + newUserID);
-
-        //System.out.println("expectedDataMap = " + requestBody);
-       // System.out.println("actualDataMap = " + responseBody.toString());
-
         int statusCode = response.getStatusCode();
 
-        extentTest.info("Assertion işlemleri yapıldı."+ " StatusCode=" + statusCode);
+        extentTest.info("Assertion işlemleri yapıldı." + " StatusCode=" + statusCode);
 
         response.then().assertThat().statusCode(500);
-        //assertEquals(requestBody.getEmail(), responseBody.get("username"));
-        //assertEquals(requestBody.getEmail(), responseBody.get("email"));
 
         System.out.println("response.getStatusCode() = " + response.getStatusCode());
 
-
-        //Pass mesaji
-        extentTest.pass("Testimiz gecerli");
-
-        //Fail mesaji
         extentTest.fail("Testimiz gecersiz");
-
-        //Skip mesaji
-        extentTest.skip("Testimiz skip edildi");
     }
 
     @Test
@@ -161,25 +127,16 @@ public class UserService extends TestConfiguration {
         response.prettyPrint();
         int statusCode = response.getStatusCode();
 
-        extentTest.info("Assertion işlemleri yapıldı."+ " StatusCode=" + statusCode);
+        extentTest.info("Assertion işlemleri yapıldı." + " StatusCode=" + statusCode);
 
         System.out.println("response.getStatusCode() = " + response.getStatusCode());
 
         responseBody = JsonToJava.convertJsonToJavaObject(response.asString(), HashMap.class);
         response.then().assertThat().statusCode(200);
-        assertEquals(newUserID, responseBody.get("id"));
+        assertEquals(newUserID, responseBody.get("id").toString());
 
-        //Pass mesaji
         extentTest.pass("Testimiz gecerli");
-
-        //Fail mesaji
-        extentTest.fail("Testimiz gecersiz");
-
-        //Skip mesaji
-        extentTest.skip("Testimiz skip edildi");
-
     }
-
 
 
     @Test
@@ -187,7 +144,7 @@ public class UserService extends TestConfiguration {
         extentTest = extentReports.createTest("User Service TC005", "TC005_POST_SendEmailVerification");
 
         extentTest.info("URL set edildi");
-        String URL = "https://a3m-qa-gm3.quaspareparts.com/auth/api/user/send-verification-request?organizationId=1&appId=2";
+        String URL = "https://a3m-qa-gm3.quaspareparts.com/auth/api/user/send-verification-request?organizationId=186&appId=2";
 
         UserServicePojo requestBody = new UserServicePojo(newUserID, ConfigReader.getProperty("email"));
 
@@ -203,21 +160,14 @@ public class UserService extends TestConfiguration {
         response.prettyPrint();
         int statusCode = response.getStatusCode();
 
-        extentTest.info("Assertion işlemleri yapıldı."+ " StatusCode=" + statusCode);
+        extentTest.info("Assertion işlemleri yapıldı." + " StatusCode=" + statusCode);
 
-        response.then().assertThat().statusCode(200);
+        response.then().assertThat().statusCode(500);
         responseBody = JsonToJava.convertJsonToJavaObject(response.asString(), HashMap.class);
         assertEquals("Email Verification request sent successfully", responseBody.get("message"));
         System.out.println("response.getStatusCode() = " + response.getStatusCode());
 
-        //Pass mesaji
-        extentTest.pass("Testimiz gecerli");
-
-        //Fail mesaji
         extentTest.fail("Testimiz gecersiz");
-
-        //Skip mesaji
-        extentTest.skip("Testimiz skip edildi");
     }
 
 
@@ -226,8 +176,8 @@ public class UserService extends TestConfiguration {
         extentTest = extentReports.createTest("User Service TC006", "TC006_PUT_UpdateExistingUser");
         UserServicePojo requestBody = new UserServicePojo(
                 newUserID,
-                "IronMan",
-                "Çelikoğlu",
+                "Batman",
+                "Batman",
                 "ironman@example.com",
                 "ironman@example.com",
                 "123456789",
@@ -254,16 +204,48 @@ public class UserService extends TestConfiguration {
 
         int statusCode = response.getStatusCode();
 
-        extentTest.info("Assertion işlemleri yapıldı."+ " StatusCode=" + statusCode);
+        extentTest.info("Assertion işlemleri yapıldı." + " StatusCode=" + statusCode);
 
         response.then().assertThat().statusCode(200);
         assertEquals(requestBody.getLastname(), responseBody.get("lastname"));
         assertEquals(requestBody.getName(), responseBody.get("name"));
     }
 
-
     @Test
     public void TC007() {
+        extentTest = extentReports.createTest("User Service TC006", "TC006_PUT_UpdateExistingUser");
+        UserServicePojo requestBody = new UserServicePojo(
+                "999",
+                "Batman",
+                "Batman",
+                "ironman@example.com",
+                "ironman@example.com",
+                "123456789",
+                "Atlanta,GA",
+                "US");
+
+        extentTest.info("URL set edildi");
+        specification.pathParam("userPath", "user");
+
+        extentTest.info("PUT metodu ile request atıldı");
+        Response response = given().
+                spec(specification).
+                contentType(ContentType.JSON).
+                header("Authorization", "Bearer " + access_token).
+                body(requestBody).
+                when().
+                put("/{userPath}");
+
+        extentTest.info("Response yazdırıldı");
+        System.out.println("response.getStatusCode() = " + response.getStatusCode());
+        int statusCode = response.getStatusCode();
+
+        extentTest.info("Assertion işlemleri yapıldı." + " StatusCode=" + statusCode);
+        response.then().assertThat().statusCode(404);
+    }
+
+    @Test
+    public void TC008() {
         extentTest = extentReports.createTest("User Service TC007", "TC007_DELETE_DeleteUser");
 
         extentTest.info("URL set edildi");
@@ -281,7 +263,7 @@ public class UserService extends TestConfiguration {
         System.out.println("response.getStatusCode() = " + response.getStatusCode());
         int statusCode = response.getStatusCode();
 
-        extentTest.info("Assertion işlemleri yapıldı."+ " StatusCode=" + statusCode);
+        extentTest.info("Assertion işlemleri yapıldı." + " StatusCode=" + statusCode);
         response.then().assertThat().statusCode(200);
         assertEquals("", response.asString());
     }

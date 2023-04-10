@@ -57,7 +57,7 @@ public void setup() {
 
 
         String currentDate = new SimpleDateFormat("yyyy_MM_dd_hh_mm_ss").format(new Date());
-        String filePath = System.getProperty("user.dir") + "\\test-output\\Reports\\testReport_" + currentDate + ".html";//Raporlarımızın kaydedileceği yeri oluşturduk
+        String filePath = System.getProperty("user.dir") + "/Users/faruk/Desktop/CapstoneProjectAPI/test-output/testReport_" + currentDate + ".html";//Raporlarımızın kaydedileceği yeri oluşturduk
 
 
         extentSparkReporter = new ExtentSparkReporter(filePath);

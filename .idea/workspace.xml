@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d325d99-6d0c-4923-b923-df63e01baf8f" name="Changes" comment="Jenkis Files were merged..">
+    <list default="true" id="3d325d99-6d0c-4923-b923-df63e01baf8f" name="Changes" comment="10 Nisan">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/allRequest/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allRequest/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestConfiguration.java" afterDir="false" />
     </list>
@@ -69,8 +68,8 @@
       <recent name="datasPojo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserService.TC007">
-    <configuration name="UserService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserService.TC006">
+    <configuration name="UserService.TC001" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CapstoneProjectAPI" />
       <extension name="coverage">
         <pattern>
@@ -80,22 +79,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="allRequest" />
       <option name="MAIN_CLASS_NAME" value="allRequest.UserService" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserService.TC003" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CapstoneProjectAPI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="allRequest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="allRequest" />
-      <option name="MAIN_CLASS_NAME" value="allRequest.UserService" />
-      <option name="METHOD_NAME" value="TC003" />
+      <option name="METHOD_NAME" value="TC001" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,6 +96,22 @@
       <option name="PACKAGE_NAME" value="allRequest" />
       <option name="MAIN_CLASS_NAME" value="allRequest.UserService" />
       <option name="METHOD_NAME" value="TC004" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserService.TC005" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CapstoneProjectAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allRequest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allRequest" />
+      <option name="MAIN_CLASS_NAME" value="allRequest.UserService" />
+      <option name="METHOD_NAME" value="TC005" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserService.TC007" />
-        <item itemvalue="JUnit.UserService.TC004" />
         <item itemvalue="JUnit.UserService.TC006" />
-        <item itemvalue="JUnit.UserService.TC003" />
-        <item itemvalue="JUnit.UserService" />
+        <item itemvalue="JUnit.UserService.TC005" />
+        <item itemvalue="JUnit.UserService.TC004" />
+        <item itemvalue="JUnit.UserService.TC007" />
+        <item itemvalue="JUnit.UserService.TC001" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680903894326</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="10 Nisan">
+      <created>1681150826340</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681150826340</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,6 +230,7 @@
     <MESSAGE value="all steps added" />
     <MESSAGE value="6 Nisan Pazartesi..&#10;Tüm stepler çalıştı" />
     <MESSAGE value="Jenkis Files were merged.." />
-    <option name="LAST_COMMIT_MESSAGE" value="Jenkis Files were merged.." />
+    <MESSAGE value="10 Nisan" />
+    <option name="LAST_COMMIT_MESSAGE" value="10 Nisan" />
   </component>
 </project>
