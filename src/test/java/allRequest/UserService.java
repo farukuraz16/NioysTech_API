@@ -77,7 +77,6 @@ public class UserService extends TestConfiguration {
         extentTest.info("URL set edildi");
 
         String URL = ConfigReader.getProperty("baseURL") + "/organization/186/application/2/role/5/user";
-
         UserServicePojo requestBody = new UserServicePojo(
                 ConfigReader.getProperty("USid"),
                 ConfigReader.getProperty("USname"),
@@ -95,18 +94,15 @@ public class UserService extends TestConfiguration {
                 body(requestBody).
                 when().
                 post(URL);
-
         extentTest.info("Response yazdırıldı");
         response.prettyPrint();
 
         int statusCode = response.getStatusCode();
 
         extentTest.info("Assertion işlemleri yapıldı." + " StatusCode=" + statusCode);
-
         response.then().assertThat().statusCode(500);
 
         System.out.println("response.getStatusCode() = " + response.getStatusCode());
-
         extentTest.fail("Testimiz gecersiz");
     }
 
