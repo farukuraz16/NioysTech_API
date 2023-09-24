@@ -2,16 +2,21 @@ package datasPojo;
 
 public class UserServicePojo {
     /*
-    {
-    "id": 94,
-    "name": "Enes Beraaaaaa",
-    "lastname": "Urazzzzzz",
-    "username": "Enesssssss",
-    "email": "enesberauraz@example.com",
-
+  curl --request POST \
+     --url https://app.asana.com/api/1.0/projects \
+     --header 'accept: application/json' \
+     --header 'authorization: Bearer 1/1205543491884173:59c403d909d21bf0455d3cffe8db0327' \
+     --header 'content-type: application/json' \
+     --data '
+{
+  "data": {
+    "name": "Marvel",
+    "workspace": "1205543498728328"
+  }
 }
+'
      */
-    private String id;
+    private String workspace;
     private String name;
     private String lastname;
     private String username;
@@ -23,7 +28,7 @@ public class UserServicePojo {
     @Override
     public String toString() {
         return "{" +
-                "id='" + id + '\'' +
+                "id='" + workspace + '\'' +
                 ", name='" + name + '\'' +
                 ", lastname='" + lastname + '\'' +
                 ", username='" + username + '\'' +
@@ -35,12 +40,12 @@ public class UserServicePojo {
     }
 
     public UserServicePojo(String id, String email) {
-        this.id = id;
+        this.workspace = id;
         this.email = email;
     }
 
     public UserServicePojo(String id, String name, String lastname, String username, String email, String phone, String address, String country_id) {
-        this.id = id;
+        this.workspace = id;
         this.name = name;
         this.lastname = lastname;
         this.username = username;
@@ -53,12 +58,12 @@ public class UserServicePojo {
     public UserServicePojo() {
     }
 
-    public String getId() {
-        return id;
+    public String getWorkspace() {
+        return workspace;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setWorkspace(String workspace) {
+        this.workspace = workspace;
     }
 
     public String getName() {
